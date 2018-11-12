@@ -12,22 +12,22 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/huawei/federer/full_federer.mk)
+$(call inherit-product, device/huawei/pele/full_pele.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/telephony.mk)
 
 # Inherit some common LineageOS stuff.
-#$(call inherit-product, vendor/cm/config/common_full.mk)
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/cm/config/common_full.mk)
+#$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # TWRP
 #PRODUCT_COPY_FILES += \
 #    device/huawei/federer/recovery/etc/twrp.fstab:recovery/root/etc/twrp.fstab
 
 
-PRODUCT_NAME := lineage_federer
+PRODUCT_NAME := lineage_pele
 BOARD_VENDOR := huawei
-PRODUCT_DEVICE := federer
+PRODUCT_DEVICE := pele
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
