@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PATH := device/huawei/federer
+DEVICE_PATH := device/huawei/pele
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
@@ -50,8 +50,8 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_USES_UNCOMPRESSED_KERNEL := true
-TARGET_KERNEL_SOURCE := kernel/huawei/federer/
-TARGET_KERNEL_CONFIG := msm-fdr_defconfig
+TARGET_KERNEL_SOURCE := kernel/huawei/pele/
+TARGET_KERNEL_CONFIG := pele_defconfig
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
@@ -176,7 +176,7 @@ TARGET_RIL_VARIANT := caf
 include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += \
-    device/huawei/federer/sepolicy
+    device/huawei/pele/sepolicy
 
 # Vendor Init
 TARGET_INIT_VENDOR_LIB := libinit_federer
@@ -207,4 +207,4 @@ WPA_SUPPLICANT_VERSION  := VER_0_8_X
 TARGET_USES_WCNSS_CTRL  := true
 
 # inherit from the proprietary version
--include vendor/huawei/federer/BoardConfigVendor.mk
+-include vendor/huawei/pele/BoardConfigVendor.mk
