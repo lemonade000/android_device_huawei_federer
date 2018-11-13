@@ -914,6 +914,16 @@ vendor/lib/libWVStreamControlAPI_L1.so
 vendor/lib/drm/libdrmwvmplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
+# Fingerprint
+lib64/hw/fingerprintd.ex.so
+lib64/hw/fingerprint.vendor.msm8916.so
+# lib64/lib_fpc_tac_shared.so
+lib64/libservices.huawei.so
+# bin/signinfolistener
+
+# Gatekeeper
+# vendor/lib64/hw/gatekeeper.msm8916.so
+
 # GPS - from crackling
 -lib64/libloc_api_v02.so|ca97a81ea91ca5c7d8dd8c9a9054121ce1446b8a
 -lib/libloc_api_v02.so|74df1667c42701ef550ba73db6c5ae63542913ac
