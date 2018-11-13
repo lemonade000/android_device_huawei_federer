@@ -1,2 +1,2 @@
-add_lunch_combo lineage_federer-userdebug
-add_lunch_combo lineage_federer-eng
+add_lunch_combo lineage_pele-userdebug
+add_lunch_combo lineage_pele-eng
