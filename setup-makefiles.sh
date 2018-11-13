@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-DEVICE=federer
+DEVICE=pele
 VENDOR=huawei
 
 # Load extractutils and do some sanity checks
